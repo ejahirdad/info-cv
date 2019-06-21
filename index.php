@@ -21,48 +21,7 @@
         <link rel="stylesheet" href="css/responsive.css">
     </head>
     <body>
-        
-        <!--================Header Menu Area =================-->
-        <header class="header_area">
-            <div class="main_menu">
-            	<nav class="navbar navbar-expand-lg navbar-light">
-					<div class="container box_1620">
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-							<ul class="nav navbar-nav menu_nav ml-auto">
-								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
-								<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li> 
-								<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li> 
-								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-										<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-									</ul>
-								</li> 
-								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-										<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-									</ul>
-								</li> 
-								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-							</ul>
-						</div> 
-					</div>
-            	</nav>
-            </div>
-        </header>
-        <!--================Header Menu Area =================-->
-        
+        <?php include('_header_menu.html'); ?>
         <!--================Home Banner Area =================-->
         <section class="home_banner_area">
            	<div class="container box_1620">
@@ -85,9 +44,11 @@
 										<li><a href="#"><i class="lnr lnr-home"></i> Madiun, East Java, Indonesia</a></li>
 									</ul>
 									<ul class="list personal_social">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+										<li><a href="https://www.facebook.com/rikzapriyudhahirdad" target="_blank"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="https://twitter.com/rikzahirdad" target="_blank"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="https://www.linkedin.com/in/rikza-priyudha-hirdad-114122105/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+										<li><a href="https://gitlab.com/rikzapeha"><i class="fa fa-github" target="_blank"></i></a></li>
+										<li><a href="https://gitlab.com/rikzapeha"><i class="fa fa-github" target="_blank"></i></a></li>
 									</ul>
 								</div>
 							</div>
@@ -135,23 +96,7 @@
         				<div class="tools_expert">
         					<div class="skill_main">
 								<div class="skill_item">
-									<h4>After Effects <span class="counter">85</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="skill_item">
-									<h4>Photoshop <span class="counter">90</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="skill_item">
-									<h4>Illustrator <span class="counter">70</span>%</h4>
+									<h4>Corel Draw <span class="counter">70</span>%</h4>
 									<div class="progress_br">
 										<div class="progress">
 											<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
@@ -159,18 +104,58 @@
 									</div>
 								</div>
 								<div class="skill_item">
-									<h4>Sublime <span class="counter">95</span>%</h4>
+									<h4>Photoshop <span class="counter">70</span>%</h4>
 									<div class="progress_br">
 										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+											<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
 										</div>
 									</div>
 								</div>
 								<div class="skill_item">
-									<h4>Sketch <span class="counter">75</span>%</h4>
+									<h4>PHP <span class="counter">80</span>%</h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Java <span class="counter">75</span>%</h4>
 									<div class="progress_br">
 										<div class="progress">
 											<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Analyst Database <span class="counter">80</span>%</h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>JQuery <span class="counter">80</span>%</h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Javascript <span class="counter">80</span>%</h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Laravel <span class="counter">87</span>%</h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100"></div>
 										</div>
 									</div>
 								</div>
@@ -201,11 +186,11 @@
 									<span></span>
 									<div class="media">
 										<div class="d-flex">
-											<p>March 2017 to present</p>
+											<p>August 2017 to present</p>
 										</div>
 										<div class="media-body">
-											<h4>Colorlib</h4>
-											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+											<h4>Equipment and Consumption</h4>
+											<p>Co-Leader Division<br />Computer Science of Faculty, Brawijaya University</p>
 										</div>
 									</div>
 								</li>
@@ -213,11 +198,11 @@
 									<span></span>
 									<div class="media">
 										<div class="d-flex">
-											<p>March 2017 to present</p>
+											<p>April 2018 to present</p>
 										</div>
 										<div class="media-body">
-											<h4>Colorlib</h4>
-											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+											<h4>Asistant of Web Develope</h4>
+											<p>Member <br />Computer Science of Faculty, Brawijaya University</p>
 										</div>
 									</div>
 								</li>
@@ -225,11 +210,35 @@
 								<span></span>
 									<div class="media">
 										<div class="d-flex">
-											<p>March 2017 to present</p>
+											<p>July 2018 to present</p>
 										</div>
 										<div class="media-body">
-											<h4>Colorlib</h4>
-											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+											<h4>Student Internship</h4>
+											<p>Software Engineering <br />PT INKA (Persero), Madiun</p>
+										</div>
+									</div>
+								</li>
+								<li>
+								<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>February 2019 to present</p>
+										</div>
+										<div class="media-body">
+											<h4>Asistant of Web Develope</h4>
+											<p>Coordinator of Asistant Web Develope  <br />Computer Science of Faculty, Brawijaya University</p>
+										</div>
+									</div>
+								</li>
+								<li>
+								<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>March 2019 to present</p>
+										</div>
+										<div class="media-body">
+											<h4>Student Internship of BUMN Forum Human Capital Indonesia (FHCI)</h4>
+											<p>Programmer  <br />PT INKA (Persero), Madiun</p>
 										</div>
 									</div>
 								</li>
@@ -241,11 +250,10 @@
 									<span></span>
 									<div class="media">
 										<div class="d-flex">
-											<p>March 2017 to present</p>
+											<p>2002-2008 to present</p>
 										</div>
 										<div class="media-body">
-											<h4>Colorlib</h4>
-											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+											<p>Primary School of Muhammadiyah  <br />Caruban, East Java</p>
 										</div>
 									</div>
 								</li>
@@ -253,23 +261,32 @@
 									<span></span>
 									<div class="media">
 										<div class="d-flex">
-											<p>March 2017 to present</p>
+											<p>2008-2012 to present</p>
 										</div>
 										<div class="media-body">
-											<h4>Colorlib</h4>
-											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+											<p>Junior High School 2 Mejayan  <br />Caruban, East Java</p>
 										</div>
 									</div>
 								</li>
 								<li>
-								<span></span>
+									<span></span>
 									<div class="media">
 										<div class="d-flex">
-											<p>March 2017 to present</p>
+											<p>2012-2015 to present</p>
 										</div>
 										<div class="media-body">
-											<h4>Colorlib</h4>
-											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+											<p>Senior High School 2 Mejayan  <br />Caruban, East Java</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>2015-2019 to present</p>
+										</div>
+										<div class="media-body">
+											<p>Informatic Engineering  <br />Computer Science of Faculty, Brawijaya University</p>
 										</div>
 									</div>
 								</li>
@@ -501,11 +518,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         					</div>
         					<p>Let us be social</p>
         					<ul class="list">
-        						<li><a href="https://www.facebook.com/rikzapriyudhahirdad"><i class="fa fa-facebook"></i></a></li>
-        						<li><a href="https://twitter.com/rikzahirdad"><i class="fa fa-twitter"></i></a></li>
-        						<li><a href="https://www.linkedin.com/in/rikza-priyudha-hirdad-114122105/"><i class="fab fa-linkedin"></i></a></li>
-        						<li><a href="https://gitlab.com/rikzapeha"><i class="fab fa-github"></i></a></li>
-        						<li><a href="https://gitlab.com/rikzapeha"><i class="fab fa-github"></i></a></li>
+        						<li><a href="https://www.facebook.com/rikzapriyudhahirdad" title="facebook account"><i class="fa fa-facebook"></i></a></li>
+        						<li><a href="https://twitter.com/rikzahirdad" title="twitter account"><i class="fa fa-twitter"></i></a></li>
+        						<li><a href="https://www.linkedin.com/in/rikza-priyudha-hirdad-114122105/" title="LinkedIn account"><i class="fa fa-linkedin"></i></a></li>
+        						<li><a href="https://github.com/rikzapeha" title="github account"><i class="fa fa-github"></i></a></li>
+        						<li><a href="https://gitlab.com/rikzapeha" title="gitlab account"><i class="fa fa-github"></i></a></li>
         					</ul>
         				</aside>
         			</div>
