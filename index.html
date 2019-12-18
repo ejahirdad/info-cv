@@ -39,13 +39,18 @@
 			max-width: 290px;
 			object-fit: contain;
 			margin-bottom: 20px;
+			transition: transform 1s, filter 2s ease-in-out;
+			filter: blur(2px);
 		}
 		.feature_item{
 			text-align: center;
 			height: 500px !important;
 		}
 		.feature_item:hover {
-			transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+			transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+		}
+		.feature_item img:hover{
+			filter: blur(0);
 		}
 		</style>
         <!--================Header Menu Area =================-->
