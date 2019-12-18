@@ -33,7 +33,13 @@
 			padding-right: 225px;
 		}
 		.feature_item img{
-			
+			max-width: 290px;
+			object-fit: contain;
+			margin-bottom: 20px;
+		}
+		.feature_item{
+			text-align-last: center;
+			height: 500px !important;
 		}
 		
 		
@@ -500,14 +506,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		
 
 		<script>
-			// $('.feature_inner').slick({
-			// 	dots: true,
-			// 	infinite: true,
-			// 	speed: 300,
-			// 	slidesToShow: 1,
-			// 	centerMode: true,
-			// 	variableWidth: true
-			// });
+			$('.feature_inner').slick({
+				dots: true,
+				infinite: true,
+				speed: 300,
+				slidesToShow: 1,
+				centerMode: true,
+				variableWidth: true
+			});
 							
 		
 		</script>
