@@ -29,6 +29,8 @@
 		<link rel="stylesheet" href="fonts/slick.woff">
         <link rel="stylesheet" href="fonts/slick.ttf"> -->
 
+
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
 		<style>
@@ -91,18 +93,18 @@
 						</div>
 					</nav>
 				</div>
-			</header>
-			<!--================Header Menu Area =================-->
-			<!--================Home Banner Area =================-->
+		</header>
+		<!--================Header Menu Area =================-->
+		<!--================Home Banner Area =================-->
         <section class="home_banner_area">
            	<div class="container box_1620" >
            		<div class="banner_inner d-flex align-items-center">
 					<div class="banner_content">
 						<div class="media">
-							<div class="d-flex">
+							<div class="d-flex" data-aos="fade-down-right">
 								<img src="img/personal-4.jpg" alt="" style="max-width:500px" srcset="img/personal-4.jpg 2x">
 							</div>
-							<div class="media-body">
+							<div class="media-body" data-aos="fade-down-left">
 								<div class="personal_text">
 									<h6>Hello Everybody, i am</h6>
 									<h3>Rikza Priyudha Hirdad</h3>
@@ -509,7 +511,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		<script src="vendors/slick/slick.js"></script>
 		<script src="vendors/slick/slick.min.js"></script>
 
-		
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 
 		<script>
 			// $('.feature_inner').slick({
