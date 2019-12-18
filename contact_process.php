@@ -4,7 +4,6 @@
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
-    $number = $_REQUEST['number'];
     $cmessage = $_REQUEST['message'];
 
     $headers = "From: $from";
@@ -13,7 +12,7 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $csubject = "You have a message from your Bitmap Photography.";
+    $csubject = "You have a message from your Resume on Github.";
 
     $logo = 'img/logo.png';
     $link = '#';
